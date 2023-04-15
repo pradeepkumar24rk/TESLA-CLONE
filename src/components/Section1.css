@@ -1,0 +1,76 @@
+.wrap{
+    height: 100vh;
+    width: 100vw;
+    /* background: orange; */
+    background-image: url("/public/images/model-y.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: (props 'url("/images/${props.bgImage}")'); */
+}
+/* #id1{
+    background-image:url("/public/images/model-3.jpg")
+} */
+
+.itemText{
+    text-align: center;
+    padding-top: 15vh;
+}
+.buttongrp
+{
+    display: flex;
+    margin-bottom: 30px;
+    
+
+}
+
+.leftButton
+{
+    background-color: rgba(23, 26, 32,0.8);
+    height: 40px;
+    width: 256px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 8px;
+    border: none;
+   
+}
+.rightButton
+{
+    background-color: white;
+    height: 40px;
+    width: 256px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.65;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 8px;
+    border: none;
+}
+
+.downarrow
+{
+    /* background-image: url('/public/images/down-arrow.svg'); */
+   
+    height: 40px;
+    /* overflow-x: hidden; */
+    animation: animation infinite 1.5s;
+    
+   
+}
